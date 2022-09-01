@@ -1,0 +1,462 @@
+/* 中间内容 */
+
+.main-content {
+    width: 100%;
+    background: url(../img/bg.webp);
+}
+
+.article {
+    width: 1220px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 15px 10px;
+}
+
+.section {
+    width: 1200px;
+    height: 140px;
+    border-top: 1px solid #dadada;
+    border-bottom: 1px solid #cbcbcb;
+    font-style: 14px;
+    box-shadow: 0 3px 7px #adadad;
+    background-color: #eee;
+}
+
+.Signboard {
+    height: 120px;
+    margin-top: 15px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Signboard-left {
+    width: 380px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Signboard-Notice1 {
+    width: 120px;
+    height: 120px;
+    background-color: #2464b5;
+}
+
+.Signboard-Notice2 {
+    width: 18px;
+    height: 120px;
+    background-color: #e5e5e5;
+}
+
+.Signboard-Notice2 span {
+    color: #fff;
+    display: block;
+    position: relative;
+    top: 50px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.Signboard-Notice1 p {
+    padding: 8px 7px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+.Signboard-Notice3 {
+    width: 230px;
+    height: 120px;
+    background-color: #fff;
+    border: 1px solid #dcdcdc;
+}
+
+.Signboard-Notice3 div {
+    width: 230px;
+    height: 100px;
+    border-bottom: 1px solid #dcdcdc;
+    position: relative;
+}
+
+.Signboard-Notice3 span {
+    display: block;
+    width: 40px;
+}
+
+.qishi {
+    position: absolute;
+    top: 22px;
+    left: 20px;
+}
+
+.yongshi {
+    position: absolute;
+    right: 20px;
+    top: 22px;
+}
+
+.score {
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+    padding-top: 25px;
+}
+
+.Signboard-Notice3 span img {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+.Signboard-Notice3 span p {
+    font-size: 12px;
+    text-align: center;
+}
+
+.Signboard-right {
+    width: 18px;
+    height: 120px;
+    background-color: #e5e5e5;
+}
+
+.Signboard-right span {
+    color: #fff;
+    display: block;
+    position: relative;
+    top: 50px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.section1 {
+    width: 1200px;
+    height: 330px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.news1 {
+    width: 510px;
+    height: 330px;
+    position: relative;
+}
+
+.news1 img {
+    width: 510px;
+    height: 330px;
+}
+
+.news1 p,
+.news1 div {
+    position: absolute;
+}
+
+.news1 p {
+    font-size: 20px;
+    color: #fff;
+    bottom: 40px;
+    left: 20px;
+}
+
+.news1 ul {
+    position: absolute;
+    bottom: 8px;
+    left: 215px;
+    /* display: flex; */
+}
+
+.news1 ul li {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    float: left;
+    margin-left: 8px;
+}
+
+.news1 ul li:nth-child(1) {
+    background-color: #fff;
+}
+
+.news2 {
+    width: 360px;
+    height: 330px;
+}
+
+.news2 ul {
+    position: relative;
+}
+
+.news2 ul li {
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+}
+
+.news2 ul li:hover i,
+.news3 ul li a:hover {
+    color: #2464b5;
+}
+
+.news2 ul li:first-child {
+    padding-top: 0;
+}
+
+.news2 ul li:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.news2 ul li i {
+    width: 258px;
+    position: absolute;
+    top: 20px;
+    left: 110px;
+    font-size: 14px;
+    font: 14px / 1.5 "Microsoft YaHei", Arial, "微软雅黑", "SimSun", "宋体";
+    color: #14171a;
+}
+
+.news2 img {
+    height: 67px;
+    width: 100px;
+}
+
+.news3 {
+    width: 300px;
+    height: 330px;
+}
+
+.news3 div {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 15px;
+    background: url(../img/news3-bg.webp);
+    color: #fff;
+    padding: 0 10px 0 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.news3 div i a {
+    background: url(../img/news3-nav.webp) no-repeat center center;
+    left: -3px;
+    float: left;
+    padding-left: 70px;
+    position: relative;
+    color: #fff;
+    font-size: 14px;
+}
+
+.news3 ul li a {
+    font-size: 14px;
+    color: #14171a;
+    padding: 0 12px;
+    line-height: 28px;
+}
+
+
+/* 最新资讯内容 */
+
+.section2 {
+    width: 1200px;
+    height: 744px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.information {
+    width: 890px;
+    height: 744px;
+}
+
+.information-h2 {
+    width: 890px;
+    height: 40px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.information-h2 a {
+    background: url(../img/information-h2.webp) no-repeat 0 center;
+    float: left;
+    font: 22px/36px 'Microsoft YaHei', 'Arial', '微软雅黑', 'SimSun', '宋体';
+    padding-left: 35px;
+    position: relative;
+    border-bottom: 3px solid #e11647;
+    color: #2464b5;
+}
+
+.information-switch {
+    width: 890px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.information-switch a {
+    float: right;
+    background: url(../img/information-switch.webp) no-repeat 0 center;
+    padding-left: 25px;
+    position: relative;
+    color: #2464b5;
+}
+
+.rank {
+    width: 300px;
+    height: 600px;
+    background-color: aqua;
+}
+
+
+/* 视频 */
+
+.section3 {
+    width: 1200px;
+    height: 562px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    background-color: lawngreen;
+}
+
+
+/* 数据 */
+
+.section4 {
+    width: 1200px;
+    height: 426px;
+    margin: 20px 0;
+    background-color: pink;
+}
+
+
+/*  */
+
+.section5 {
+    width: 1200px;
+    height: 630px;
+}
+
+.section5>h2 {
+    border-bottom: 1px solid #E1E1E1;
+    font-size: 22px;
+    color: #2464b5;
+    padding-bottom: 8px;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+.section5>h2>img {
+    display: inline-block;
+    position: relative;
+    top: 8px;
+    margin-right: 10px;
+}
+
+.section5-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section5-left {
+    width: 895px;
+    height: 436px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.section5-left li {
+    width: 286px;
+    height: 203px;
+}
+
+.section5-left li img {
+    width: 100%;
+    height: 100%;
+}
+
+.section5-right {
+    width: 285px;
+    height: 436px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section5-right-top {
+    width: 285px;
+    height: 316px;
+}
+
+.section5-right-top h2 {
+    height: 40px;
+    line-height: 40px;
+    background: #2464b5;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 0 15px;
+}
+
+.section5-right-top h2 a {
+    color: #fff;
+}
+
+.section5-right-top div {
+    height: 276px;
+    padding: 15px 15px 20px 15px;
+    background: url(../img/section5-right-bg.webp) no-repeat;
+}
+
+.section5>ul {
+    display: flex;
+}
+
+.section5>ul>li {
+    margin: 20px 0;
+    width: 140px;
+    height: 81px;
+    border: 1px solid red;
+}
+
+
+/* NBA合作伙伴 */
+
+.nba-partner h3 {
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    border-bottom: 1px solid #E1E1E1;
+    font-weight: normal;
+}
+
+.par-list {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.par-list img {
+    width: 130px;
+    height: 52px;
+}
+
+.par-list a {
+    width: 130px;
+    height: 57px;
+    margin: 0 10px 20px;
+}
+
+.nba-partner p {
+    padding: 20px;
+    font-size: 12px;
+    line-height: 24px;
+}

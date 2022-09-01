@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    display: block;
+}
+
+i {
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #00aeff;
+}
+
+
+/* 头部 */
+
+.header {
+    height: 120px;
+    width: 100%;
+    background: #006bb7;
+}
+
+.header-main {
+    width: 1200px;
+    margin: 0 auto;
+    background: url(../img/header-bg.webp);
+}
+
+.header-hd {
+    position: relative;
+    height: 80px;
+}
+
+.header-logo img {
+    position: absolute;
+    width: 86px;
+    height: 50px;
+    left: 45px;
+    top: 20px;
+}
+
+.header-bd {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-nav>li>a {
+    display: block;
+    font-size: 16px;
+    padding: 5px 15px 0 10px;
+    height: 40px;
+    margin-right: 23px;
+    color: #fff;
+}
+
+.header-nav>li:first-child>a {
+    color: #00aeff;
+}
+
+.header-nav>li>a:hover {
+    color: #00aeff;
+}
+
+.header-nav>li>ul {
+    position: relative;
+}
+
+.header-nav>li>ul>span>img {
+    position: absolute;
+    top: -6px;
+    left: 20px;
+    display: none;
+}
+
+.header-nav>li>ul {
+    position: absolute;
+}
+
+.header-nav>li>ul>li {
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #002f50;
+    z-index: 999;
+    display: none;
+}
+
+.header-nav>li>ul>li>a {
+    font: 12px/1.5 'Microsoft YaHei', 'Arial', '微软雅黑', 'SimSun', '宋体';
+    color: #fff;
+    padding: 0 10px;
+}
+
+.header-nav>li:hover>ul>li,
+.header-nav>li:hover>ul>span>img {
+    display: block;
+}
+
+.header-nav>li>ul>li:hover {
+    background-color: #2364b5;
+}
+
+
+/* 底部 */
+
+.footer {
+    width: 100%;
+    height: 415px;
+}
+
+.footer-hd {
+    width: 100%;
+    height: 250px;
+    background: url(../img/footer-bg.webp);
+}
+
+.footer-hd-content {
+    margin: 0 auto;
+    width: 1200px;
+    height: 250px;
+}
+
+.footer-hd-content div {
+    width: 210px;
+    height: 250px;
+    float: left;
+}
+
+.footer-hd-content div span {
+    height: 65px;
+    line-height: 65px;
+    color: #fff;
+    font-size: 18px;
+    display: block;
+}
+
+.footer-hd-content div a {
+    color: #fff;
+    margin-bottom: 7px;
+    font-size: 14px;
+    display: block;
+}
+
+.footer-hd-content div a:hover {
+    text-decoration: underline;
+}
+
+.footer-hd-content div:last-child {
+    padding-left: 15px;
+}
+
+.footer-hd-content div img {
+    width: 110px;
+    height: 110px;
+}
+
+.footer-bd {
+    width: 100%;
+    height: 165px;
+    background-color: #1f2428;
+}
+
+.footer-bd-content {
+    margin: 0 auto;
+    width: 1200px;
+    height: 145px;
+    padding-top: 20px;
+    text-align: center;
+    font: 12px/25px 'Microsoft YaHei', 'Arial', '微软雅黑', 'SimSun', '宋体';
+    color: #fff;
+}
+
+.footer-bd-content a {
+    color: #356da0;
+}
